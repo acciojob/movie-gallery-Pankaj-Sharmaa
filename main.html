@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Gallery</title>
+    <!-- Include Bootstrap 5 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbs5jQhjMu0Pd5YEvXcTAq8sh+j2Qq+UtoTkmXnrVwoUTL7eRJ9R6QVr6S5oZ5C7" crossorigin="anonymous">
+    <style>
+        /* Optional: Add custom styles for image height and width */
+        .gallery-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+<div class="container-fluid">
+    <!-- First Row -->
+    <div class="row">
+        <div class="col-sm-1">
+            <img src="your-image-url.jpg" alt="Movie 1" class="img-fluid gallery-img">
+        </div>
+        <!-- Repeat for a total of 12 columns in the first row -->
+        <!-- Example: -->
+        <!-- <div class="col-sm-1">
+            <img src="your-image-url.jpg" alt="Movie 2" class="img-fluid gallery-img">
+        </div> -->
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="your-image-url.jpg" alt="Movie 13" class="img-fluid gallery-img">
+        </div>
+        <!-- Repeat for a total of 6 columns in the second row -->
+        <!-- Example: -->
+        <!-- <div class="col-sm-2">
+            <img src="your-image-url.jpg" alt="Movie 14" class="img-fluid gallery-img">
+        </div> -->
+    </div>
+
+    <!-- Third Row -->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="your-image-url.jpg" alt="Movie 19" class="img-fluid gallery-img">
+        </div>
+        <!-- Repeat for a total of 3 columns in the third row -->
+        <!-- Example: -->
+        <!-- <div class="col-sm-4">
+            <img src="your-image-url.jpg" alt="Movie 20" class="img-fluid gallery-img">
+        </div> -->
+    </div>
+
+    <!-- Fourth Row -->
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="your-image-url.jpg" alt="Movie 22" class="img-fluid gallery-img">
+        </div>
+    </div>
+</div>
+
+<!-- Include Bootstrap 5 JS and Popper.js (optional) scripts if needed -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8V+uaBemJgDOh3QPvf4t5tcb8GcKb8GcKb8GcKb8GcKb8GcKb8GcKb8GcKb" crossorigin="anonymous"></script>
 </body>
-
 </html>
